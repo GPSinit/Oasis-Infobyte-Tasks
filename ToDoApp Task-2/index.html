@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="main">
+            <div class="center">
+                <div class="button">
+                    <span class="text">To-Do</span>
+                    <span class="icon"><i class="ri-arrow-down-s-fill"></i></span>
+                </div>
+                <div id="MyClockDisplay" class="clock" onload="showTime()"></div>
+                <div class="field">
+                    <input type="text" required placeholder="Add your new to-do">
+                    <span class="add-btn">ADD</span>
+                </div>
+                <ul>
+                    <li><span><i class="ri-delete-bin-2-fill"></i></span>Do Study</li>
+                    <li><span><i class="ri-delete-bin-2-fill"></i></span>College</li>
+                    <li><span><i class="ri-delete-bin-2-fill"></i></span>Read a Book</li>
+                    <li><span><i class="ri-delete-bin-2-fill"></i></span>Take a Nap</li>
+                </ul>
+            </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
